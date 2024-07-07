@@ -17,6 +17,7 @@
 		A9ADD7202C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD71F2C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieTests.swift */; };
 		A9ADD72A2C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD7292C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITests.swift */; };
 		A9ADD72C2C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD72B2C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITestsLaunchTests.swift */; };
+		A9F29C4A2C3ADD1200577B6E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F29C492C3ADD1200577B6E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A9ADD7252C3A112A009E1113 /* Swift Lern App Developer AkademieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Lern App Developer AkademieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9ADD7292C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Lern_App_Developer_AkademieUITests.swift; sourceTree = "<group>"; };
 		A9ADD72B2C3A112A009E1113 /* Swift_Lern_App_Developer_AkademieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Lern_App_Developer_AkademieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9F29C492C3ADD1200577B6E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				A914E1532C3A15A600265C8D /* data.json */,
 				A9ADD7122C3A1129009E1113 /* Assets.xcassets */,
 				A9ADD7142C3A1129009E1113 /* Preview Content */,
+				A9F29C492C3ADD1200577B6E /* DetailView.swift */,
 			);
 			path = "Swift Lern App Developer Akademie";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				A9ADD7112C3A1126009E1113 /* ContentView.swift in Sources */,
 				A914E1562C3A166200265C8D /* Topic.swift in Sources */,
 				A914E1582C3A196D00265C8D /* ViewModel.swift in Sources */,
+				A9F29C4A2C3ADD1200577B6E /* DetailView.swift in Sources */,
 				A9ADD70F2C3A1126009E1113 /* Swift_Lern_App_Developer_AkademieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
