@@ -26,10 +26,21 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()*/
-        List {
+        
+        NavigationStack {
+            List {
+                ForEach(viewModel.topics, id: \.self) { topic in NavigationLink(topic.title) {
+                    DetailView(topic: topic)
+                }
+                }
+            }
+            .navigationTitle("Swift Lernen")
+        }
+        
+        /*List {
             ForEach(viewModel.topics, id: \.self) { topic in Text(topic.title)
             }
-        }
+        }*/
     }
 }
 
