@@ -16,5 +16,13 @@ class ViewModel: ObservableObject {
             topics = []
             return
         }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            topics = try JSONDecoder().decode([Topic].self, from: data)
+        } catch {
+            print("Fehler beim Laden des Inhalts: \(error)")
+            topics = []
+        }
     }
 }
