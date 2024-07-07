@@ -34,6 +34,8 @@ struct DetailView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 8))
             }
             .padding()
+            .navigationTitle(topic.title)
+            .navigationBarTitleDisplayMode(.inline)
         }
 
         /*VStack(alignment: .leading, spacing: 12) {
