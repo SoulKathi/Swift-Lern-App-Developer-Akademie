@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = ViewModel()
+    
     var body: some View {
         /*VStack {
             Image(systemName: "globe")
@@ -16,13 +19,17 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()*/
-        HStack {
+        /*HStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
-        .padding()
+        .padding()*/
+        List {
+            ForEach(viewModel.topics, id: \.self) { topic in Text(topic.title)
+            }
+        }
     }
 }
 
